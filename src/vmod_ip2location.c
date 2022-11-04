@@ -1,7 +1,5 @@
-#ifdef __FreeBSD__
 #include <stdio.h>
 #define gcvt(v, d, c) sprintf(c, "%*g", d, v);
-#endif
 #include <string.h>
 
 #include <IP2Location.h>
